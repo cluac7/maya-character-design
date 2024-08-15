@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
-//Name: character.ma
-//Last modified: Thu, Aug 15, 2024 11:05:19 AM
+//Name: character_BASE.ma
+//Last modified: Thu, Aug 15, 2024 11:09:01 AM
 //Codeset: 1252
 requires maya "2023";
 requires "stereoCamera" "10.0";
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202211021031-847a9f9623";
 fileInfo "osv" "Windows 10 Education v2009 (Build: 19045)";
-fileInfo "UUID" "0049589A-4C6E-6B03-8FF5-B1A00F1250AF";
+fileInfo "UUID" "4EA98DF6-4C33-EB87-EEAE-BB98870C6D3E";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "984B83B3-48F0-0609-EC28-E1AC65022E5B";
@@ -7116,4 +7116,4 @@ connectAttr "HumanBody1:place2dTexture1.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "HumanBody:ReflectionMap.msg" ":defaultTextureList1.tx" -na;
 connectAttr "HumanBody1:ReflectionMap.msg" ":defaultTextureList1.tx" -na;
-// End of character.ma
+// End of character_BASE.ma
